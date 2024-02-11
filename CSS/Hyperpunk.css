@@ -1008,7 +1008,7 @@ button.advantages__details:hover {
          padding:0;
     }
     .niteCity__text {
-         margin: 0 0.83rem;
+         margin: inherit 0.83rem;
     }
     .niteCity__grid {
         grid-template-columns:1fr;
