@@ -183,14 +183,13 @@ button.mainBlock__moreInfo:hover {
 /* Найт-Сити */
 .niteCity {
     width:100%;
+    padding:3.9rem 0;
 }
 .niteCity ._limitation {
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
     align-items: flex-start;
-    padding-bottom:3.9rem;
-    padding-top:3.9rem;
 }
 .niteCity__text {
     display:flex;
@@ -254,12 +253,12 @@ span._blue {
 .draw {
     width:100%;
     background-color: #000;
+    padding:0.83rem 0 3.9rem;
 }
 .draw ._limitation {
     display:flex;
     flex-direction: column;
     align-items:flex-start;
-    padding:0.83rem 0.83rem 3.9rem;
 }
 .draw__text {
     display:flex;
@@ -409,13 +408,13 @@ form.signUp {
 .advantages {
     width:100%;
     background-color:#f8f200;
+    padding: 3.88rem 0;
 }
 .advantages ._limitation {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     column-gap:1.77rem;
-    padding: 3.88rem 0.83rem;
 }
 .advantages__images {
     display:flex;
@@ -1004,6 +1003,12 @@ button.advantages__details:hover {
     button.mainBlock__moreInfo {
         width:100%;
         padding: 2rem 0;
+    }
+    .niteCity ._limitation {
+         padding:0;
+    }
+    .niteCity__text {
+         margin: 0 0.83rem;
     }
     .niteCity__grid {
         grid-template-columns:1fr;
