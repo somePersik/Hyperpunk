@@ -1014,7 +1014,6 @@ button.advantages__details:hover {
         grid-template-columns:1fr;
         grid-template-rows: 1fr 1fr 2.5fr;
         gap:1.75rem;
-	margin: 0 -0.83rem;
     }
     .niteCity__picture._big {
         grid-column: 1 / 2;
